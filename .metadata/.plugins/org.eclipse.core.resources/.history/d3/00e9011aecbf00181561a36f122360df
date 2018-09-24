@@ -1,0 +1,9 @@
+package com.cg.bean;
+
+import java.util.List;
+import java.util.Map;
+
+public class PlayerReport {
+String playerName;
+Map<Game, List<Day>> map;
+}

@@ -1,0 +1,21 @@
+package com.cg.bean;
+
+import java.util.Set;
+
+public class Player {
+
+	private String name;
+	private Set<Game> game;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Set<Game> getGame() {
+		return game;
+	}
+	public void setGame(Set<Game> game) {
+		this.game = game;
+	}
+}

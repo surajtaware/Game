@@ -1,0 +1,8 @@
+package com.cg.bean;
+
+import java.util.List;
+
+public class DayReport {
+	private String day;
+	private List<Game> games; 
+}

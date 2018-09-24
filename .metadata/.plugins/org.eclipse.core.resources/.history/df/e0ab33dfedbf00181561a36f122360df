@@ -1,0 +1,11 @@
+package com.cg.service;
+
+import com.cg.bean.Game;
+
+public class GameService {
+private Game add(Game g)
+{
+	return g;
+}
+}
+
