@@ -1,0 +1,69 @@
+=========Test Cases for GameService
+1. add() method
+1) Null games cannot be addedd
+2) Game name canot be null
+3) Two games with same name cannot be added
+4) valid games should be added
+
+=========TestCases for PlayerService
+1. add() method
+1) Null player cannot be addedd
+2) player name canot be null
+3) valid player should be added
+
+=========TestCases for DayService
+1. add() method
+1) Null day cannot be addedd
+2) Day name canot be null
+3) Two day with same name cannot be added
+4) valid day should be added
+
+==========TestCases for GameRepo
+1. save(Game g) method
+1) Null game cannot be addedd
+2) Game name canot be null
+3) Two games with same name cannot be added
+4) valid games should be added
+
+2.fidByName(String name) method
+1) Name cannot be null
+2) player name canot be null
+3) valid player should be added
+
+==========TestCases for DayRepo
+1. save(Day d) method
+1) Null day cannot be addedd
+2) Day name canot be null
+3) Two day with same name cannot be added
+4) valid day should be added
+
+===========TestCases for PlayerRepo
+1. save(Player p) method
+1) Null player cannot be saved
+2) player name canot be null
+3) valid player should be saved
+
+2. findByName(String name) method
+1) Name cannot be null
+2) It should be return result for valid name
+
+3.findByGamesName(String name)
+1) Gamename cannot be null
+2) It should be return result for valid name
+
+===========TestCases for ReportService
+1. gameWiseReport(String gameName)
+1) Game Name cannot be null
+2) It should return null if there is no record available for passed name parameter.
+3) It should return records for valid name
+
+2. playerWiseReport(String playerName)
+1) Player Name cannot be null
+2) It should return null if there is no record available for passed name parameter.
+3) It should return records for valid name
+
+3. dayWiseReport(String dayName)
+1) DayName cannot be null
+2) It should return null if there is no record available for passed name parameter.
+3) It should return records for valid name
+
