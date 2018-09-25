@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="com.cg.bean.Player"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="com.cg.bean.Game"/>
+<fullyQualifiedTypeName name="com.cg.repo.GameRepo"/>
+<fullyQualifiedTypeName name="com.cg.repo.PlayerRepo"/>
+<fullyQualifiedTypeName name="com.cg.bean.Day"/>
+<fullyQualifiedTypeName name="com.cg.repo.DayRepo"/>
+</qualifiedTypeNameHistroy>
