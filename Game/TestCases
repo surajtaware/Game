@@ -10,6 +10,7 @@
 1) Null player cannot be addedd
 2) player name canot be null
 3) valid player should be added
+4) Game cannot be null
 
 =========TestCases for DayService
 1. add() method
